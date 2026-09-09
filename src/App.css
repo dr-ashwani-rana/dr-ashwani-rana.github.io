@@ -2073,3 +2073,21 @@ font-size: 12px;
 }
 
 }
+
+
+/* Prevent casual text selection */
+body {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Keep form fields usable if added later */
+input,
+textarea {
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+}
