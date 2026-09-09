@@ -20,7 +20,7 @@ return ( <nav className="navbar"> <div className="nav-container">
       <a href="#home">Home</a>
       <a href="#about">About</a>
       <a href="#services">Services</a>
-      <a href="#services">Achievements</a>
+      <a href="#achievements">Achievements</a>
       <a href="#map">Contact</a>
       <a href="#timings">Timings</a>
     </div>
